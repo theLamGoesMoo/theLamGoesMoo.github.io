@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | LikeWater</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 360px; height: 560px; background: #231F20"></canvas>
+    <script src="Build/QueendomBoxes.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/QueendomBoxes.data.gz",
+        frameworkUrl: "Build/QueendomBoxes.framework.js.gz",
+        codeUrl: "Build/QueendomBoxes.wasm.gz",
+        streamingAssetsUrl: "QueendomBoxes/StreamingAssets",
+        companyName: "LamGoesMoo",
+        productName: "LikeWater",
+        productVersion: "1.1",
+      });
+    </script>
+  </body>
+</html>

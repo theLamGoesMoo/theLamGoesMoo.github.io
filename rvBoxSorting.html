@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="game-style.css" rel="stylesheet">
+	<title>RevelupGames</title>
+    
+</head>
+<body>
+	<div class="contentHeader"> 
+		<b>Queendom Mini Game: Sorting Boxes</b>
+	</div>
+	<div class="container">
+		<div id = "mainContent" class = "mainContent">
+			<div id="unity-canvas" class = "subContent" style="width: 360px; height: 560px; margin: auto">
+			<canvas id="unity-canvas" style="width: 360px; height: 560px; background: #231F20"></canvas>
+			<script src="QueendomBoxes/Build/QueendomBoxes.loader.js"></script>
+			<script>
+			  createUnityInstance(document.querySelector("#unity-canvas"), {
+				dataUrl: "Build/QueendomBoxes.data.gz",
+				frameworkUrl: "Build/QueendomBoxes.framework.js.gz",
+				codeUrl: "Build/QueendomBoxes.wasm.gz",
+				streamingAssetsUrl: "StreamingAssets",
+				companyName: "LamGoesMoo",
+				productName: "LikeWater",
+				productVersion: "1.1",
+			  });
+			</script>
+			</div>
+			<div id ="videoContent" class="subContent">
+			<iframe width="500" height="350" src="https://www.youtube.com/embed/c9RzZpV460k" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		
+
+		<div id="rightSidebar" class="rightSidebar">
+			<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4NMZ4UC3NCh" width="300" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+	</div>
+	
+	<div class = "footer">
+		<div id="debug-text"> 
+			<c> TheLamGoesMoo</c>
+			<a href="https://twitter.com/crazytaijutsu">|Twitter  </a>
+		</div>
+	</div>
+</body>
+</html>
