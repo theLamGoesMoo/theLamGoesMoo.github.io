@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | LittleSquidGames</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 640px; height: 360px; background: #231F20"></canvas>
+    <script src="Build/SquidGames.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/SquidGames.data",
+        frameworkUrl: "Build/SquidGames.framework.js",
+        codeUrl: "Build/SquidGames.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "LamGoesMoo",
+        productName: "LittleSquidGames",
+        productVersion: "1.1",
+      });
+    </script>
+  </body>
+</html>
