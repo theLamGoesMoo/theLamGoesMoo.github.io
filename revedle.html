@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="game-style.css" rel="stylesheet">
+	<title>RevelupGames</title>
+    
+</head>
+<body style="text-align: center">
+	<div class="contentHeader"> 
+		<b>Revedle</b>
+	</div>
+	<div class="container">
+		<div id = "mainContent" class = "mainContent">
+			<canvas id="unity-canvas" style="width: 360px; height: 640px; background: #231F20"></canvas>
+			<script src="Revedle/Build/Revedle.loader.js"></script>
+			<script>
+				createUnityInstance(document.querySelector("#unity-canvas"), {
+				dataUrl: "Revedle/Build/Revedle.data",
+				frameworkUrl: "Revedle/Build/Revedle.framework.js",
+				codeUrl: "Revedle/Build/Revedle.wasm",
+				streamingAssetsUrl: "StreamingAssets",
+				companyName: "LamGoesMoo",
+				productName: "LittleSquidGames",
+				productVersion: "1.1",
+			  });
+			</script>
+			
+		</div>
+		
+
+		<div id="rightSidebar" class="rightSidebar">
+			<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4NMZ4UC3NCh" width="300" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+	</div>
+	
+	<div class = "footer">
+		<div id="debug-text"> 
+			<c> TheLamGoesMoo</c>
+			<a href="https://twitter.com/theLamGoesMoo">|Twitter  </a>
+		</div>
+	</div>
+</body>
+</html>
