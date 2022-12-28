@@ -123,7 +123,7 @@ function mainInit(data){
 }
 
 function mainPreload(){
-	this.load.setBaseURL('https://raw.githubusercontent.com/chatterboxn18/chatterboxn18.github.io/master/');
+	this.load.setBaseURL('https://raw.githubusercontent.com/thelamgoesmoo/thelamgoesmoo.github.io/master/');
 	this.load.image('main-bg','ddunddun/ddun-main-bg.png');
 	this.load.image('lyrics-tiles','ddunddun/ddunlyrics-black.png');
 	this.load.image('block-tiles','ddunddun/tilesheets/blocks-tile.png');
