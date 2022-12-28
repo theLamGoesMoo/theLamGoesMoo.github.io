@@ -42,7 +42,7 @@ var gameConfig = {
 var gameType;
 
 function startPreload(){
-	this.load.setBaseURL('https://raw.githubusercontent.com/chatterboxn18/chatterboxn18.github.io/master/');
+	this.load.setBaseURL('https://raw.githubusercontent.com/thelamgoesmoo/thelamgoesmoo.github.io/master/');
 	this.load.image('selection-bg','ddunddun/ddun-selection-bg.png');
 	this.load.image('selection-start','ddunddun/en-play.png');
 	this.load.image('lyrics','ddunddun/en-lyrics.png');
